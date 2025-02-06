@@ -44,7 +44,7 @@ public class SettingsLayout extends LinearLayout {
             if (inflater != null) {
                 inflater.inflate(R.layout.settings_layout, this, true);
             } else {
-                Log.e(TAG, "LayoutInflater is null");
+                Log.e(TAG, "LayoutInflater is null.");
                 return;
             }
             
