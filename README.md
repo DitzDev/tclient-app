@@ -15,7 +15,7 @@ To install the project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Paxsenix0/tclient-app.git
+   git clone https://github.com/DitzDev/tclient-app.git
    ```
 2. Navigate to the project directory:
    ```sh
