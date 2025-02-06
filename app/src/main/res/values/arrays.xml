@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="methodList">
+        <item>GET</item>
+        <item>POST</item>
+        <item>PUT</item>
+        <item>DELETE</item>
+        <item>PATCH</item>
+        <item>OPTIONS</item>
+        <item>HEAD</item>
+    </string-array>
+</resources>
