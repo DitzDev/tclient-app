@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TClient</string>
-
+    
+    <!-- used by MainActivity -->
+    <string name="main_act_method">Method</string>
+    <string name="main_act_hint_url">Enter a Request URL...</string>
+    <string name="main_act_enable_auth">Enable Auth Request</string>
+    <string name="main_act_enable_auth_sub">This will require a password and username when connecting to the requesting address.</string>
+    <string name="main_act_header_title">Add Header</string>
+    <string name="main_act_btn_add_header">Add</string>
+    <string name="main_act_menu_save">\tSave Request</string>
+    <string name="main_act_menu_history">\tHistory</string>
+    <string name="main_act_nav_title_req">Request Menu</string>
+    <string name="main_act_nav_title_other">Others</string>
+    <string name="main_act_nav_menu_req">Request API</string>
+    <string name="main_act_nav_menu_ws">WebSocket Tester</string>
+    <string name="main_act_nav_menu_browser">Browser</string>
+    <string name="main_act_nav_menu_settings">Settings</string>
+    <string name="main_act_nav_menu_license">License</string>
 </resources>

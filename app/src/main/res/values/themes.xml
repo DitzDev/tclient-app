@@ -53,13 +53,5 @@
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:textViewStyle">@style/FontCustomText</item>        
-    </style>
-    
-    <style
-            name="FontCustomText"
-            parent="android:Widget.TextView">
-        <item name="android:fontFamily">@font/gilroy</item>
-        <item name="android:textSize">16dp</item>
     </style>
 </resources>

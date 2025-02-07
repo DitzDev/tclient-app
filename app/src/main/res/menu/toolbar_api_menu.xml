@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnMenuRun"
+        android:title="Run Request"
+        android:icon="@drawable/icon_play"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_more"
+        android:title="Menu"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/btnMenuSave"
+                android:title="@string/main_act_menu_save"
+                android:icon="@drawable/icon_save"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/btnMenuHistory"
+                android:title="@string/main_act_menu_history"
+                android:icon="@drawable/icon_history"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

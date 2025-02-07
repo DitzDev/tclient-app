@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/main_act_nav_title_req">
+        <menu>
+            <item
+                android:id="@+id/navReqApi"
+                android:icon="@drawable/icon_net_traffic"
+                android:iconTint="?attr/colorPrimary"
+                android:title="@string/main_act_nav_menu_req"
+                android:checkable="true" />
+            <item
+                android:id="@+id/navWS"
+                android:icon="@drawable/icon_websocket"
+                android:iconTint="?attr/colorPrimary"
+                android:title="@string/main_act_nav_menu_ws"
+                android:checkable="false" />
+            <item
+                android:id="@+id/navBrowser"
+                android:icon="@drawable/icon_web"
+                android:iconTint="?attr/colorPrimary"
+                android:title="@string/main_act_nav_menu_browser"
+                android:checkable="false" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/others_item"
+        android:title="@string/main_act_nav_title_other">
+        <menu>
+            <item
+                android:id="@+id/navSettings"
+                android:icon="@drawable/icon_settings"
+                android:iconTint="?attr/colorPrimary"
+                android:title="@string/main_act_nav_menu_settings"
+                android:checkable="false" />
+            <item
+                android:id="@+id/navLicense"
+                android:icon="@drawable/icon_license"
+                android:iconTint="?attr/colorPrimary"
+                android:title="@string/main_act_nav_menu_license"
+                android:checkable="false" />
+        </menu>
+    </item>
+</menu>
